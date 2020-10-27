@@ -1,1 +1,14 @@
-
+let moods = ["sad", "happy", "joy", "outrageous", "tremendous"];
+moods.push("cool");
+console.log(moods);
+console.log(moods.length);
+console.log(moods[0]);
+console.log(moods[moods.length - 1]);
+moods.splice(0, 1);
+console.log(moods);
+moods = moods.slice(1);
+console.log(moods);
+console.log(moods.join());
+let moods2 = ["mad", "laughing", "coughing", "corona"];
+let moods3 = moods.concat(moods2);
+console.log(moods3);
